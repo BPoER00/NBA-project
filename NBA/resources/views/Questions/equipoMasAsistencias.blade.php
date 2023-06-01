@@ -50,6 +50,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="jumbotron">
+                    <p style="font-size: 25px">
+                        El equipo con mayor asistencias en la temporada regular de la NBA 2017/2018 es: <span class="badge badge-success">{{ $puntos[0]['nombre'] }}</span>, con el total de asistencias: <span class="badge badge-success">{{ $puntos[0]['asistencias'] }}</span>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

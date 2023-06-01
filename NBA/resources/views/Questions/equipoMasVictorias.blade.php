@@ -75,6 +75,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="jumbotron">
+                    <p style="font-size: 25px">
+                        El equipo con mayor cantidad de victorias de la conferencia: <span class="badge badge-warning">Oeste</span> en la temporada regular de la NBA 2017/2018 es: <span class="badge badge-success">{{ $victorias['Este'][0]->nombre }}</span>, con el total de victorias de: <span class="badge badge-success">{{ $victorias['Este'][0]->victorias }}</span>, y una cantidad de derrotas de: <span class="badge badge-danger">{{ $victorias['Este'][0]->derrotas }}</span>.
+                    </p>
+                    <p style="font-size: 25px">
+                        El equipo con mayor cantidad de victorias de la conferencia: <span class="badge badge-warning">Este</span> en la temporada regular de la NBA 2017/2018 es: <span class="badge badge-success">{{ $victorias['Oeste'][0]->nombre }}</span>, con el total de victorias de: <span class="badge badge-success">{{ $victorias['Oeste'][0]->victorias }}</span>, y una cantidad de derrotas de: <span class="badge badge-danger">{{ $victorias['Oeste'][0]->derrotas }}</span>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

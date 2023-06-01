@@ -73,6 +73,20 @@
                             </table>
                     </div>
                 </div>
+                <div class="jumbotron">
+                    <p style="font-size: 25px">
+                        Los equipos que clasifican a playoffs de la conferencia del: <span class="badge badge-warning">Oeste</span> de la temporada 2017/2018 son:
+                        @foreach ($victorias['Oeste'] as $item)
+                            <li>{{ $item->nombre }}</li>
+                        @endforeach
+                    </p>
+                    <p style="font-size: 25px">
+                        Los equipos que clasifican a playoffs de la conferencia del: <span class="badge badge-warning">Este</span> de la temporada 2017/2018 son:
+                        @foreach ($victorias['Este'] as $item)
+                            <li>{{ $item->nombre }}</li>
+                        @endforeach
+                    </p>
+                </div>
             </div>
         </div>
     </div>

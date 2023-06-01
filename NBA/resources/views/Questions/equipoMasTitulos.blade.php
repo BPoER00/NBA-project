@@ -46,6 +46,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="jumbotron">
+                    <p style="font-size: 25px">
+                        El equipo con mayor cantidad de titulos en la temporada regular de la NBA 2017/2018 es: <span class="badge badge-success">{{ $equipos[0]->nombre }}</span>, con el total de titulos: <span class="badge badge-success">{{ $equipos[0]->titulos }}</span>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
