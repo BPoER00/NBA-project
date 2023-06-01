@@ -50,6 +50,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="jumbotron">
+                    <p style="font-size: 25px">
+                        El equipo con mayor cantidad de perdidas en la temporada regular de la NBA 2017/2018 es: <span class="badge badge-success">{{ $puntos[0]['nombre'] }}</span>, con el total de perdidas: <span class="badge badge-success">{{ $puntos[0]['perdidas'] }}</span>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

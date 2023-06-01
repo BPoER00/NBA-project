@@ -52,6 +52,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="jumbotron">
+                    <p style="font-size: 25px">
+                        El equipo con mayor cantidad de tiros triples en la temporada regular de la NBA 2017/2018 es: <span class="badge badge-success">{{ $puntos[0]['nombre'] }}</span>, con el total de intentos de: <span class="badge badge-danger">{{ $puntos[0]['fta'] }}</span>, en donde se anoto la total de: <span class="badge badge-success">{{ $puntos[0]['ft'] }}</span>.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
