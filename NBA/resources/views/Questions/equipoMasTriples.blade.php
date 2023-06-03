@@ -34,6 +34,8 @@
                                         <th>Nombre</th>
                                         <th>Triples</th>
                                         <th>Intentos Triples</th>
+                                        <th>Porcentaje</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -44,6 +46,8 @@
                                             <td>{{ $puntos[$i]['nombre'] }}</td>
                                             <td>{{ $puntos[$i]['ft'] }}</td>
                                             <td>{{ $puntos[$i]['fta'] }}</td>
+                                            <td>{{ number_format($puntos[$i]['ft']*100/$puntos[$i]['fta'], 2) }}%</td>
+
                                         </tr>
 
                                     @endfor
